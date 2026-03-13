@@ -1,0 +1,20 @@
+[00:00:03.905] Server  LOG     ✓ Ready in 2.4s
+[00:00:09.769] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. {name}
+[00:00:09.769] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. {name}
+[00:01:01.296] Browser ERROR   ./app/page.js:16:25
+Parsing ecmascript source code failed
+  14 |       <ul>
+  15 |         {names.map((name) => (
+> 16 |           <li key={name}">{name}</li>
+     |                         ^^^^^^^^^^^^^
+  17 |         ))}
+  18 |       </ul>
+  19 |       <LikeButton />
+
+Unterminated string constant
+[00:01:02.837] Server  LOG     ✓ Compiled in 11ms
+[00:06:55.477] Server  LOG     ✓ Compiled in 1210ms
+[00:06:57.404] Server  ERROR   ⨯ Error: The default export is not a React Component in "/layout"
+[00:06:58.295] Server  ERROR   ⨯ Error: The default export is not a React Component in "/layout"
+[00:07:00.447] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/layout"
+[00:07:02.808] Server  LOG     ✓ Compiled in 50ms
